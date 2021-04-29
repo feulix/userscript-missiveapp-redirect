@@ -9,8 +9,8 @@ Userscript that redirects all links to mail.missiveapp.com to the Missive app
 
 ## Safari
 1. Install the [Userscripts extension](https://apps.apple.com/us/app/userscripts/id1463298887) 
-2. Enable extension in Safari > Prefs > Extensions
-3. Hit the </> button in the toolbar
+2. Enable extension in Safari > Preferences > Extensions
+3. Hit the `</>` button in the toolbar
 4. Create a new Userscript by hitting the + button at the top left of the window
 5. Paste the code below
 6. Hit Save
