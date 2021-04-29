@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name     	Open all links from mail.missiveapp.com in app
-// @version  	1
-// @grant    	none
+// @version  	1.1
+// @grant    	window.close
 // @updateURL	https://github.com/feulix/userscript-missiveapp-redirect/raw/main/Open%20all%20links%20from%20mail.missiveapp.com%20in%20app.user.js
 // @downloadURL	https://github.com/feulix/userscript-missiveapp-redirect/raw/main/Open%20all%20links%20from%20mail.missiveapp.com%20in%20app.user.js
 // @match       https://mail.missiveapp.com/#*
@@ -29,5 +29,6 @@ console.log('returnTo','missive://mail.missiveapp.com/'+returnTo);
 //alert('Greasemonkey script is redirecting you...');
 //if (confirm("Allow Greasemonkey script to redirect you to app?")) {
 	window.location = 'missive://mail.missiveapp.com/'+returnTo;
+	window.close();
 //} 
 
