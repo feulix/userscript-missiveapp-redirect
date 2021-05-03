@@ -4,7 +4,7 @@
 // @grant    	window.close
 // @updateURL	https://github.com/feulix/userscript-missiveapp-redirect/raw/main/Open%20all%20links%20from%20mail.missiveapp.com%20in%20app.user.js
 // @downloadURL	https://github.com/feulix/userscript-missiveapp-redirect/raw/main/Open%20all%20links%20from%20mail.missiveapp.com%20in%20app.user.js
-// @include       https://mail.missiveapp.com/#*
+// @include     https://mail.missiveapp.com/#*
 // @run-at 	document-end
 // ==/UserScript==
 
